@@ -13,21 +13,21 @@ $("#italic").click(function() {
   $("#P").toggleClass("italic");
 });
 $("#underline").click(function() {
-  $("#P").toggleClass("underline");
+  $("#P").css("text-align","underline");
 });
 
 $("#center").click(function() {
-  $("#P").toggleClass("align-center");
+  $("#P").css("text-align","center");
 });
 $("#left").click(function() {
-  $("#P").toggleClass("align-left");
+  $("#P").css("text-align","left");
 });
 $("#right").click(function() {
-  $("#P").toggleClass("align-right");
+  $("#P").css("text-align","right");
 });
 
 $("#justify").click(function() {
-  $("#P").toggleClass("justify");
+  $("#P").css("text-align","justify");
 });
 
 $("#color").change(function() {
