@@ -13,7 +13,7 @@ $("#italic").click(function() {
   $("#P").toggleClass("italic");
 });
 $("#underline").click(function() {
-  $("#P").css("text-align","underline");
+  $("#P").css("text-decoration","underline");
 });
 
 $("#center").click(function() {
